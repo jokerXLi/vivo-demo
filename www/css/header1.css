@@ -1,0 +1,64 @@
+.header {
+  height: 32px;
+  background: #333333; }
+  .header ul {
+    float: left; }
+    .header ul li {
+      float: left;
+      line-height: 32px;
+      margin-left: 40px; }
+      .header ul li a {
+        color: #cccccc; }
+        .header ul li a:hover {
+          color: #999999; }
+  .header ol {
+    float: right;
+    position: relative; }
+    .header ol li {
+      float: left;
+      line-height: 32px;
+      margin: 0 20px; }
+      .header ol li a {
+        color: #cccccc; }
+        .header ol li a:hover {
+          color: #999999; }
+    .header ol img {
+      position: absolute;
+      top: 10px; }
+
+      .nav{
+    height: 73px;
+    background: #f7f7f7;
+}
+
+.nav .log{
+    float: left;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.nav .nav-center li a:hover{
+    color: #415fff;
+}
+
+.nav .nav-center li{
+    float: left;
+    line-height: 73px;
+    margin-right: 56px;
+}
+
+.nav .nav-center li a{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.nav .nav-center li #store,.nav .nav-center li #store:hover{
+    color: #8b8d8b;
+}
+
+.nav .search{
+    float: right;
+    margin-top: 26px;
+}
+/* nav end */

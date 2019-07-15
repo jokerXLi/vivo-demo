@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>账号注册</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.validate.js"></script>
+</head>
+
+<body>
+    <form id="theform" onsubmit="return false;">
+        <a href="#"><img src="../images/log.png" alt=""></a>
+        <h2>账号注册</h2>
+        <p style="margin-top: 66px"><input type="text" name="username" id="username" placeholder="请输入用户名"></p>
+        <p><input type="password" name="password" id="password" placeholder="请输入密码"></p>
+        <p><input type="password" name="repassword" id="repassword" placeholder="请输入确认密码"></p>
+        <p style="text-align:left;padding-left:250px;width:610px;"><input type="checkbox" name="xieyi" id="xieyi"
+                checked>&nbsp;&nbsp;我已阅读并接收&nbsp;&nbsp;<a href="#" style="color: #009bfd">《vivo服务协议》</a></p>
+        <p><button id="btn">注册</button></p>
+    </form>
+
+    <div class="footer">
+        <div class="main">
+            <p class="f1"><a href="#">在线客服</a>&nbsp;&nbsp;&nbsp;&nbsp;<span>400-678-9688(24小时全国服务热线)</span></p>
+            <p class="f2">COPYRIGHT &copy;2011-2018 广东步步高电子工业有限公司 版权所有 保留一切权利 | 隐私政策 | 法律声明 | 粤B2-20080267 |
+                粤ICP备05100288</p>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    $('#theform').validate({
+        rules: {
+            username: {
+                required: true,
+                minlength: 6
+            },
+            password: {
+                required: true,
+                minlength: 6
+            },
+            repassword: {
+                required: true,
+                equalTo: "#password"
+            }
+        },
+        messages: {
+            username: {
+                required: "用户名不能为空",
+                minlength: "用户名长度至少6位"
+            },
+            password: {
+                required: "密码不能为空",
+                minlength: "密码长度至少6位"
+            },
+            repassword: {
+                required: '确认密码不能为空',
+                equalTo: "与密码不一致"
+            }
+        },
+        submitHandler: function (form) {
+            var data = $(form).serialize();
+            $('#btn').prop('disabled',true);
+            $.post("../php/register.php", data, function (res) {
+                $('#btn').prop('disabled',false);
+                console.log(res);
+                if (res.code == -1) {
+                    alert(res.message);
+                }
+                else if (res.code == 200) {
+                    // alert(res.message);
+                    location.href="./login2.html";
+                }
+                else {
+                    alert(res.message);
+                }
+            }, 'json');
+        }
+    });
+</script>

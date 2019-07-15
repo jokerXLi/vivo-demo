@@ -1,0 +1,40 @@
+html,body,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,table,tr,td,fieldset,legend,img,a,i,em,b,strong,span,input,textarea,
+select,figure,header,nav,section,aside,article
+{
+    padding: 0;
+    margin: 0;
+}
+
+fieldset,img,input{
+    border: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+body{
+    font:12px "微软雅黑";
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1px;
+}

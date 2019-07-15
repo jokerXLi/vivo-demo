@@ -1,0 +1,35 @@
+dt,dl,dd,html,body,ul,ol,li,a,img,h1,span,p{
+    margin: 0;
+    padding: 0;
+    font-family: "方正悠黑简体_纤","Microsoft YaHei",Arial;
+}
+li{
+    float: left;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+img{
+    display: inline-block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body{
+    background: #f7f7f5;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.ove{
+    overflow: hidden;
+}
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,6 @@
+body,html,h1,h2,h3,h4,h5,h6,p,span,a,input,form,table,tr,td,dl,dt,dd,i,em,strong,b,div,img,fieldset,ul ,ol{margin: 0;padding: 0;}
+a{text-decoration: none;}
+img{border: none;}
+body{font: 12px "微软雅黑";}
+.clearfix::after{content: "";overflow:hidden; clear: both ;visibility: hidden;height: 0;font-size: 0;display: block;}
+ul li ,ol li{list-style: none;}

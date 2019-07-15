@@ -1,0 +1,281 @@
+body{
+    background: #f7f7f7;
+}
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 32px;
+    background: #333333;
+}
+
+.header .header-left li,.header .header-right li{
+    float: left;
+    line-height: 32px;
+}
+
+.header .header-left li a,.header .header-right li a{
+    color: #cccccc;
+}
+
+.header .header-left li a:hover,.header .header-right li a:hover{
+    color: #999999;
+}
+
+.header .header-left li{
+    margin-left: 40px;
+}
+
+.header .header-right li{
+    margin: 0 20px;
+}
+
+.header-right{
+    position: relative;
+}
+
+.header-right img{
+    position: absolute;
+    top: 10px;
+}
+/* header end */
+
+.nav{
+    height: 73px;
+}
+
+.nav .log{
+    float: left;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.nav .nav-center li a:hover{
+    color: #415fff;
+}
+
+.nav .nav-center li{
+    float: left;
+    line-height: 73px;
+    margin-right: 56px;
+}
+
+.nav .nav-center li a{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.nav .nav-center li #store,.nav .nav-center li #store:hover{
+    color: #8b8d8b;
+}
+
+.nav .search{
+    float: right;
+    margin-top: 26px;
+}
+/* nav end */
+
+.content{
+    height: 294px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.content h3{
+    width: 288px;
+    font-size: 22px;
+    font-weight: normal;
+    background: url("../images/gou.png") no-repeat left center;
+    padding-left: 30px;
+    margin: 52px 0 0 370px;
+}
+
+.content-left{
+    width: 150px;
+    height: 155px;
+    border: 1px solid #ececec;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.content-left img{
+    width: 100%;
+}
+
+.content dl{
+    margin-top: 56px;
+    margin-left: 35px;
+}
+
+.content dl dt{
+    font-size: 18px;
+}
+
+.content dl dd{
+    font-size: 18px;
+    color: #686868;
+}
+
+.content-right{
+    margin-top: 86px;
+}
+.content-right a{
+    width: 186px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 16px;
+}
+
+.content-right .detail{
+    background: #ff9536;
+}
+
+.content-right .count{
+    background: #f51200;
+    margin: 0 121px 0 31px;
+}
+/* content end */
+
+.show .show-center h3{
+    margin: 44px 0 30px 0;
+     font-size: 22px;
+     color: #333333;
+     font-weight: normal;
+ }
+ 
+ 
+ .show-center .goods dl{
+     width: 292px;
+     height: 380px;
+     background: #fff;
+     box-sizing: border-box;
+     margin: 0 10px 10px 0;
+     float: left;
+     padding: 0 20px;
+ }
+
+ .show-center .goods dl:hover{
+    z-index: 2; /*设置在顶层显示*/
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+ 
+ .show .show-center .goods dl:nth-child(4n){
+     margin-right: 0;
+ }
+ 
+ .show-center .goods dl dd p:nth-child(1){
+     font-size: 16px;
+     color: #333333;
+     margin-bottom: 18px;
+     text-align: center;
+ }
+ 
+ .show-center .goods dl dd p:nth-child(2){
+     color: #333333;
+     margin-bottom: 30px;
+ }
+ 
+ .show-center .goods dl dd p:nth-child(3){
+     color: #f51919;
+     text-align: center;
+ }
+ /* show end */
+
+.footer{
+    /* height: 588px; */
+    background: #fff;
+    margin-top: 26px;
+    overflow: hidden;
+}
+
+.footer-top ul{
+    height: 118px;
+}
+.footer-top ul li{
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 66px;
+    margin-right: 90px;
+    margin-left: 100px;
+}
+
+.footer-top ul li img{
+    margin-right: 8px;
+}
+
+.footer-center{
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    padding-bottom: 52px;
+}
+
+.footer-center dl{
+    float: left;
+    margin-right: 94px;
+    margin-left: 20px;
+}
+
+.footer-center dl dt{
+   font-size: 16px;
+   color: #333333;
+   margin: 70px 0 40px 0;
+   font-weight: bold;
+}
+
+.footer-center dl dd{
+    margin-bottom: 24px;
+ }
+
+.footer-center dl dd a{
+    font-size: 14px;
+    color: #666666;
+ }
+
+ .footer-center dl dd a:hover{
+    color: #415fff;
+ }
+
+ .footer-center .lastdl dt{
+     background: url(../images/xtb5.png) no-repeat left center;
+     padding-left: 36px;
+ }
+ .footer-center .lastdl dt a{
+     font-size: 22px;
+     color: #333333;
+     font-weight: normal;
+ }
+
+ .footer-center .lastdl dt a:hover{
+    color: #415fff;
+}
+
+.footer-center .lastdl dd img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer-center .lastdl dd{
+    margin-top: 60px;
+}
+
+ .footer-bottom p{
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: #666666;
+}
+
+.footer-bottom p a{
+    color: #666666;
+}

@@ -1,0 +1,226 @@
+.content{
+    width: 100%;
+    background: #cfe3f5;
+}
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main .log{
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+#theform{
+    width: 420px;
+    height: 680px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    opacity: 0.9; 
+}
+
+#theform img{
+    margin: 30px 0 0 130px;
+}
+
+#theform h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 21px 0 0 142px;
+}
+
+#theform .txt{
+    text-align: right;
+    width: 360px;
+    margin: 20px 30px;
+}
+
+#theform .txt a{
+    color: #0091ff;
+    font-size: 14px;
+}
+
+#theform .un{
+    width: 345px;
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #dedfe0;
+    margin-left: 30px;
+    overflow: hidden;
+    padding-left: 13px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#theform #username{
+    height: 46px;
+    margin-left: 20px;
+}
+
+#username:focus,#password:focus{
+    outline: none;
+}
+
+#theform .pwd{
+    width: 345px;
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #dedfe0;
+    margin-left: 30px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+#theform #password{
+    padding-left: 13px;
+    margin-top: 7px;
+    width: 238px;
+    height: 33px;
+    border-right: 1px solid #dedfe0;
+}
+
+#theform .pwd  #send{
+    color: #0091ff;
+    padding-left: 10px;
+    border: 0;
+    background: #fff;
+}
+
+#theform .txt5{
+    width: 360px;
+    margin: 16px 30px;
+    font-size: 14px;
+}
+
+#theform .txt1{
+    /* text-align: right; */
+    width: 360px;
+    margin: 18px 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    /* box-sizing: border-box; */
+}
+
+#theform .txt1 a{
+    color: #0091ff;
+    font-size: 14px;
+}
+
+#check{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #dedfe0;
+    background: #fff;
+    margin-right: 2px;
+}
+
+#theform #btn1,#theform #btn2{
+    width: 345px;
+    height: 46px;
+    line-height: 46px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+#theform #btn1{
+    background: #3798fa;
+    color: #fff;
+    border: 0;
+}
+
+#theform #btn2{
+    border: 1px solid #3798fa;
+    color: #3798fa;
+    background: #fff;
+}
+
+#theform #btn2:hover{
+    background: skyblue;
+}
+
+#theform .txt2{
+    width: 360px;
+    margin: 20px 30px;
+    font-size: 12px;
+    color: #666;
+}
+
+#theform .txt3{
+    width: 360px;
+    margin: 20px 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#theform .txt3 a{
+    color: #666;
+}
+
+#theform .txt4{
+    width: 360px;
+    margin: 20px 30px 30px 30px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+#theform .txt4 .s1{
+    display: block;
+    width: 130px;
+    height: 1px;
+    background: #ccc;
+    margin-top: 10px;
+}
+
+#theform ul{
+    width: 310px;
+    height: 30px;
+    margin: 30px 30px;
+    padding: 0  0 0 70px;
+}
+
+#theform ul li{
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin-right: 22px;
+}
+
+#theform ul li .pic{
+    margin: 0;
+}
+
+.footer{
+    width: 100%;
+    height: 230px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+
+.footer .f1{
+    font-size: 14px;
+    color: #666;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.footer .f1 a{
+    font-size: 14px;
+    color: #666;
+}
+
+.footer .f1 a:hover{
+    color: #3798fa;
+}
+
+.footer .f2{
+    color: #9d9d9d;
+    text-align: center;
+}

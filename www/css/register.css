@@ -1,0 +1,89 @@
+body{
+    background: #f7f7f7;
+}
+
+#theform{
+    background: #ffffff;
+    width: 860px;
+    height: 640px;
+    margin: 40px auto;
+    text-align: center;
+    position: relative;
+}
+
+#theform img{
+    margin: 60px 0 38px 0;
+}
+
+#theform h2{
+    /* margin-left: 386px; */
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#theform input{
+    width: 340px;
+    height: 46px;
+    border: 1px solid #dedfe0;
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+#theform #xieyi{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #dedfe0;
+    background: #ffffff;
+    /* margin-bottom:  40px; */
+}
+
+#theform button{
+    width: 358px;
+    height: 46px;
+    background: #3798fa;
+    color: #ffffff;
+    border: 0;
+    font-size: 16px;
+    /* margin-bottom:  40px; */
+}
+
+#theform p{
+    margin-bottom: 20px;
+}
+
+label.error {
+    color: red;
+    position: absolute;
+    left: 630px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 230px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+
+.footer .f1{
+    font-size: 14px;
+    color: #666;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.footer .f1 a{
+    font-size: 14px;
+    color: #666;
+}
+
+.footer .f1 a:hover{
+    color: #3798fa;
+}
+
+.footer .f2{
+    color: #9d9d9d;
+    text-align: center;
+}

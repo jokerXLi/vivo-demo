@@ -1,0 +1,19 @@
+[
+    {"id":1,"name":"Z5x 6GB+64GB 极夜黑","description":"骁龙710处理器，6.53英寸极点全面屏，5000mAh大电池，强劲闪充强续航，超广角AI三摄，前置1600万AI美颜","img":"./img/img1.png","price":1498.00},
+    {"id":2,"name":"iQOO 12GB+128GB 武士黑","description":"高通骁龙855旗舰处理器，44W闪充，超级液冷散热，4D游戏震感2.0+游戏环绕音，Monster Touch压感按键","img":"./img/img2.png","price":3698.00},
+    {"id":3,"name":"Z3x 6GB+64GB 瓷釉黑","description":"19:9超清全面屏，骁龙660AIE处理器，前置1600万像素，3D炫彩流光机身，Jovi人工智能助理","img":"./img/img3.png","price":1398.00},
+    {"id":4,"name":"Y3 4GB+128GB 孔雀蓝","description":"5000mAh大电池，强劲续航，双引擎闪充，支持反向充电，灵动水滴屏，前置1600万像素，AI智慧三摄+超广角摄像头","img":"./img/img4.png","price":1500.00},
+    {"id":5,"name":"Z3x 4GB+64GB 极光色","description":"19:9超清全面屏，骁龙660AIE处理器，前置1600万像素，3D炫彩流光机身，Jovi人工智能助理","img":"./img/img5.png","price":1198.00},
+    {"id":6,"name":"S1 Pro 6GB+256GB 钟情蓝","description":"19.5:9零界全面屏，升降式摄像头，3200万前置超清自拍，4800万后置三摄，3700mAh大电池，双引擎闪充","img":"./img/img6.png","price":2698.00},
+    {"id":7,"name":"X27 8GB+128GB版 雀羽蓝","description":"升降式摄像头，19.5:9零界全面屏，4800万后置三摄+超广角+超微距+超级夜景+超级逆光，vivo闪充，零感水冷散热","img":"./img/img7.png","price":3198.00},
+    {"id":8,"name":"Z1青春版4GB+32GB 极光色","description":"6.26英寸刘海屏 ，八核处理器，Face Wake面部+指纹双识别，前置1600万AI智慧美颜","img":"./img/img8.png","price":949.00},
+    {"id":9,"name":"iQOO 8GB+128GB 电光蓝","description":"高通骁龙855旗舰处理器，44W闪充，超级液冷散热，4D游戏震感2.0+游戏环绕音，Monster Touch压感按键","img":"./img/img9.png","price":3298.00},
+    {"id":10,"name":"XE160原装耳机","description":"vivo原装正品耳机，半入耳式设计，无缝贴合人耳，佩戴舒适，专业高音技术，三频均衡，音质有保证，一键线控，3.5mm插头设计","img":"./img/img10.png","price":69.00},
+    {"id":11,"name":"vivo X27（8G+128G版）原装Type-C数据线","description":"2A大电流速充，Type-C接口，官方原装正品。（注：X27 8G+256G版/X27精英版/X27Pro不支持此数据线，本商品不含充电器，充电器需另行购买）","img":"./img/img11.png","price":39.00},
+    {"id":12,"name":"iQOO原装44W超快闪充充电器","description":"44W超快闪充，六重保护系统（iQOO 8G/12G运存版本标配充电器，6G运存版使用兼容，本商品不含数据线，数据线请另行购买）","img":"./img/img12.png","price":119.00},
+    {"id":13,"name":"BroadLink 智能插座SP mini3","description":"wifi智能插座，支持多组定时、远程控制。本商品由杭州古北电子科技有限公司发货，并提供售后服务，详请见服务说明。","img":"./img/img13.png","price":49.00},
+    {"id":14,"name":"Guildford手机桌面支架 银色","description":"精选优质铝材，平滑不刮手，支持270°转动，满足多角度使用需求；梯形加宽底座，稳固不易摇晃，增加硅胶防滑垫，手机不易刮伤，预留充电孔位，充电也能正常使用","img":"./img/img14.png","price":39.00},
+    {"id":15,"name":"乐心手环Mambo5","description":"26万色真彩大屏，0.96英寸触摸显示屏，支持支付宝支付；12分钟有氧跑，科学指导有氧训练；11项运动模式，满足日常锻炼需要，支持心率监测，续航最长可达30天","img":"./img/img15.png","price":149.00},
+    {"id":16,"name":"Sleepace 香薰助眠唤醒灯","description":"香薰机、蓝牙音箱、床头灯三合一，三款香味可选，创造优质睡眠。本商品由深圳迈迪加科技发展有限公司发货，并提供售后服务，详请见服务说明。","img":"./img/img16.png","price":299.00},
+    {"id":17,"name":"乐范魔力贴温情版 粉色","description":"开机8秒速热，温暖无需等待；模式升级，只能分控；APP智控，随心选择；智能防护，放心无忧；人性化设计，手动操控；超纤面料，手感舒适；人性化按键设置，操作简单易懂","img":"./img/img17.png","price":199.00}
+]

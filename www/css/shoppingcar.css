@@ -1,0 +1,511 @@
+body{
+    background: #f7f7f7;
+}
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 32px;
+    background: #333333;
+}
+
+.header .header-left li,.header .header-right li{
+    float: left;
+    line-height: 32px;
+}
+
+.header .header-left li a,.header .header-right li a{
+    color: #cccccc;
+}
+
+.header .header-left li a:hover,.header .header-right li a:hover{
+    color: #999999;
+}
+
+.header .header-left li{
+    margin-left: 40px;
+}
+
+.header .header-right li{
+    margin: 0 20px;
+}
+
+.header-right{
+    position: relative;
+}
+
+.header-right img{
+    position: absolute;
+    top: 10px;
+}
+/* header end */
+
+.nav{
+    height: 73px;
+}
+
+.nav .log{
+    float: left;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.nav .nav-center li a:hover{
+    color: #415fff;
+}
+
+.nav .nav-center li{
+    float: left;
+    line-height: 73px;
+    margin-right: 56px;
+}
+
+.nav .nav-center li a{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.nav .nav-center li #store,.nav .nav-center li #store:hover{
+    color: #8b8d8b;
+}
+
+.nav .search{
+    float: right;
+    margin-top: 26px;
+}
+/* nav end */
+
+.top{
+    height: 66px;
+}
+
+.top .top-center{
+    height: 66px;
+    background: #fff;
+}
+
+.top .top-center h3{
+    line-height: 66px;
+    float: left;
+    margin-left: 540px;
+    font-size: 22px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.top .top-center a{
+    display: block;
+    line-height: 66px;
+    font-size: 14px;
+    color: #333333;
+    float: right;
+    margin-right: 35px;
+}
+
+.top .top-center a:hover{
+    color: red;
+}
+/* top end */
+
+.content{
+    height: 440px;
+    margin-top: 19px;
+}
+
+.content-center{
+    height: 440px;
+    background: #fff url(../images/cart.png) no-repeat center 76px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content-center p{
+    color: #666666;
+    font-size: 16px;
+    margin-top: 250px;
+}
+
+.content-center #shop,.content-center #save{
+    /* display: block; */
+    width: 190px;
+    height: 48px;
+    background: #008ddc;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 44px;
+}
+
+.content-center #shop{
+    margin-right: 64px;
+}
+/* content end */
+
+
+.content1{
+    margin-top: 19px;
+    overflow: hidden;
+}
+
+.content-center1  table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.order-table{
+    width: 100%;
+    color: #686868;
+    text-align: center;
+    vertical-align: middle;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.order-table td{
+    vertical-align: middle;
+}
+
+.checkbox{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    background: url("../images/jlt.png") no-repeat -10px -237px;
+    margin: 0 10px 2px 0;
+}
+
+.checkbox.checked{
+    background-position: -10px -205px;
+}
+
+/* ctop start */
+.content-center1 .ctop{
+    height: 64px;
+    background: #fff;
+    padding: 0 26px;
+}
+
+.content-center1 .ctop th{
+    height: 64px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.ctop a{
+    color: #333333;
+    outline: 0 none;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.ctop a:hover{
+    color: #f51919;
+}
+
+.ctop th:nth-child(1),.ctop th:nth-child(2){
+    width: 20%;
+    text-align: left;
+}
+/* ctop end */
+
+/* cmiddle start */
+.content-center1 .cmiddle{
+    background: #fff;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 26px;
+}
+
+.content-center1 .cmiddle td{
+    height: 152px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+}
+
+.cmiddle .check-col{
+    width: 33px;
+    text-align: left;
+}
+
+.cmiddle .pro-pic{
+    position: relative;
+    width: 142px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.cmiddle .cmtd1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ececec;
+}
+
+.cmiddle .cmtd1 img{
+    width: 100%;
+}
+
+.cmiddle .goods-col{
+    text-align: left;
+    width: 250px;
+    color: #686868;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* .cmiddle .price-col{
+    width: 128px;
+    padding: 0 20px;
+    text-align: center;
+    color: #666666;
+} */
+
+.cmiddle .cmtd3{
+    width: 98px;
+    height: 30px;
+    border: 1px solid #ececec;
+}
+
+.cmtd3 #sub,.cmtd3 #puls{
+    border: 0;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    float: left;
+    cursor: pointer;
+}
+
+.cmtd3 #sub:focus,.cmtd3 #puls:focus{
+    outline: none;
+}
+
+.cmtd3 #number{
+    border: 0;
+    width: 36px;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    float: left;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+}
+
+.cmiddle a{
+    color: #333333;
+    font-size: 14px;
+}
+
+.cmiddle a:hover{
+    color: #f51919;
+}
+
+.cmiddle span{
+    color: #f51919;
+}
+/* cmiddle end */
+
+/* cbottom start */
+.cbottom{
+    height: 98px;
+    background: #fff;
+    padding: 0 26px;
+    margin-top: 19px;
+}
+
+.cbottom .u1 li{
+    height: 98px;
+    line-height: 98px;
+    margin-right: 29px;
+    float: left;
+}
+
+.cbottom .u1 li a{
+    color: #333333;
+    font-size: 16px;
+}
+
+.cbottom .u1 li a:hover{
+    color: #f51919;
+}
+
+.cbottom .t1{
+    font-size: 14px;
+    color: #333333;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.cbottom .t2{
+    font-size: 14px;
+    color: #808080;
+    text-align: right;
+}
+
+.cbottom .amount{
+    display: block;
+    width: 160px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    background: #f51919;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 16px;
+    margin: 30px 0 0 20px;
+}
+
+.cbottom .amount:hover{
+    background: #e20f0fa9;
+}
+/* cbottom end */
+
+/* content1 end */
+
+.show .show-center h3{
+   margin: 44px 0 30px 0;
+    font-size: 22px;
+    color: #333333;
+    font-weight: normal;
+}
+
+
+.show-center .goods dl{
+    width: 292px;
+    height: 380px;
+    background: #fff;
+    box-sizing: border-box;
+    margin: 0 10px 10px 0;
+    float: left;
+    padding: 0 20px;
+}
+
+.show-center .goods dl:hover{
+    z-index: 2; /*设置在顶层显示*/
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+
+.show .show-center .goods dl:nth-child(4n){
+    margin-right: 0;
+}
+
+/* .show .show-center .goods dl dt img{
+    width: 110px;
+    height: 138px;
+    /* width: 100%; 
+} */
+
+.show-center .goods dl dd p:nth-child(1){
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.show-center .goods dl dd p:nth-child(2){
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.show-center .goods dl dd p:nth-child(3){
+    color: #f51919;
+    text-align: center;
+}
+/* show end */
+
+.footer{
+    /* height: 588px; */
+    background: #fff;
+    margin-top: 26px;
+    overflow: hidden;
+}
+
+.footer-top ul{
+    height: 118px;
+}
+.footer-top ul li{
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 66px;
+    margin-right: 90px;
+    margin-left: 100px;
+}
+
+.footer-top ul li img{
+    margin-right: 8px;
+}
+
+.footer-center{
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    padding-bottom: 52px;
+}
+
+.footer-center dl{
+    float: left;
+    margin-right: 94px;
+    margin-left: 20px;
+}
+
+.footer-center dl dt{
+   font-size: 16px;
+   color: #333333;
+   margin: 70px 0 40px 0;
+   font-weight: bold;
+}
+
+.footer-center dl dd{
+    margin-bottom: 24px;
+ }
+
+.footer-center dl dd a{
+    font-size: 14px;
+    color: #666666;
+ }
+
+ .footer-center dl dd a:hover{
+    color: #415fff;
+ }
+
+ .footer-center .lastdl dt{
+     background: url(../images/xtb5.png) no-repeat left center;
+     padding-left: 36px;
+ }
+ .footer-center .lastdl dt a{
+     font-size: 22px;
+     color: #333333;
+     font-weight: normal;
+ }
+
+ .footer-center .lastdl dt a:hover{
+    color: #415fff;
+}
+
+.footer-center .lastdl dd img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer-center .lastdl dd{
+    margin-top: 60px;
+}
+
+ .footer-bottom p{
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: #666666;
+}
+
+.footer-bottom p a{
+    color: #666666;
+}
+
